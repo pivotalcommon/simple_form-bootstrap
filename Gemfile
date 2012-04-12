@@ -13,8 +13,4 @@ gem 'jquery-rails'
 
 gem 'simple_form', '~> 2.0.0'
 
-group :production do
-  gem 'pg'
-end
-
-gem 'sqlite3', :groups => [:test, :development]
+gem 'sqlite3'
